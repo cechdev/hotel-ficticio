@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+
+*{
+    background-image: url(imagens/serv.png);
+}
+
+h2{
+    position: absolute;
+    width: 416px;
+    height: 48px;
+    left: 103px;
+    top: 464px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    color: #a47125;
+}
+h3{
+    position: absolute;
+    width: 235px;
+    height: 54px;
+    left: 103px;
+    top: 535px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #a47125;
+}
+
+.hero {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0;
+}
+
+nav ul li {
+    font-family: 'Inria Serif', serif;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #a47125;
+}
+
+nav ul li a:hover {
+    color: #fdf5e6;
+    transition: .3s;
+}
